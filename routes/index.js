@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var mongoose=require('mongoose');
+var mongoose=require('mongoose');   
 var {MongoClient}=require('mongodb');
 const {dbUrl, dbName}=require('../config/dbConfig')
 mongoose.set('strictQuery', false);
